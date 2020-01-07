@@ -25,6 +25,7 @@ import HistoryEdit from './history_components/Edit'
 
 import Product from './product_components/Product'
 import ProductAdd from './product_components/Add'
+import ProductEdit from './product_components/Edit'
 
 
 
@@ -171,6 +172,7 @@ class AdminHome extends React.Component {
                                             <Route exact path="/histories/product_out" component={HistoryOut} />
                                             <Route exact path="/products" component={Product} />
                                             <Route exact path="/products/add" component={ProductAdd} />
+                                            <Route exact path="/products/edit/:id" component={ProductEdit} />
                                         </Switch>
                                     </div>
                                 </Col>
