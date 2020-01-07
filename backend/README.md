@@ -36,4 +36,5 @@ Adapun **dependencies** yang saya gunakan adalah :
 
 ## Cara Menggunakan Aplikasi
 
+- Untuk panduan API, bisa dilihat [Disini]()
 
