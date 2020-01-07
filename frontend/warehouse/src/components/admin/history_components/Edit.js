@@ -72,7 +72,7 @@ class Edit extends React.Component {
                 }
             })
 
-            if (res.status == 201) {
+            if (res.status === 200) {
                 alert("Tracking Product History Successfull")
                 this.setState({
                     name: ""

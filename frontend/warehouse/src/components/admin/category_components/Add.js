@@ -38,7 +38,7 @@ class Add extends React.Component {
                 }
             })
 
-            if (res.status == 201) {
+            if (res.status === 201) {
                 alert("Created Category successfull")
                 this.setState({
                     name: ""

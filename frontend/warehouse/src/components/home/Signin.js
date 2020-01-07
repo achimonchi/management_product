@@ -46,7 +46,6 @@ class Signin extends React.Component {
         })
             .then(res => {
                 if (res.data) {
-                    let userData = res.data.token
                     let data = JSON.stringify(res.data);
                     data = base64.encode(data)
                     console.log(data)

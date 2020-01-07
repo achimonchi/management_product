@@ -77,6 +77,8 @@ class AdminHome extends React.Component {
             case 12:
                 month = "December"
                 break
+            default:
+                month = "January"
         }
         this.state = {
             user: JSON.parse(base64.decode(localStorage.getItem('admin_login'))),
