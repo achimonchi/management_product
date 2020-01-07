@@ -1,0 +1,91 @@
+.side_drawer{
+    height: 100%;
+    background: rgb(44, 44, 44);
+    box-shadow: 2px 0 5px rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px; 
+    z-index: 200;
+    transform: translateX(101%);
+    transition: transform .3s ease-in;
+    
+}
+
+.side_drawer p{
+    color: white;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    /* top:100px; */
+
+}
+
+.side_drawer div{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    padding: 15px;
+}
+
+.side_drawer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-weight: bold;
+    transition: .4s;
+    opacity: .3;
+    border-left:10px solid transparent;
+    padding-left: 10px;
+}
+
+.side_drawer.open{
+    transform: translateX(0);
+}
+
+.side_drawer a.active{
+    border-left:10px solid #fff;
+    opacity: 1;
+}
+
+.side_drawer a:hover{
+    border-left:10px solid #fff;
+    opacity: 1;
+    transform: scale(1);
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-logout{
+    border:2px solid #fff;
+    padding:10px 25%;
+    transition:.4s;
+    background: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    margin-top:100px;
+}
+
+.btn-logout:hover{
+    background: #fff;
+    color: #444444;
+}
+
+.icon-user{
+    text-align: center;
+    border-top:5px solid white;
+    border-right:5px solid white;
+    border-left:5px solid white;
+    border-bottom:5px solid transparent;
+    border-radius: 50%;
+    padding:20px;
+    color:white;
+    width:90px;
+    height: 90px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}

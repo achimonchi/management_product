@@ -1,0 +1,87 @@
+header{
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    top:0;
+    left: 0;
+    padding-left:10vh;
+    padding-right:10vh;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    z-index: 999;
+    color: white;
+    /* background: rgb(8, 151, 159); */
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #023a7e, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #308dff, #00c6ff);
+
+
+}
+
+.toolbar_navigation{
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding: 0 1rem;
+}
+
+.toolbar_logo a{
+    color: #444;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color:white;
+}
+
+.toolbar_logo a:hover{
+    text-decoration: none;
+}
+
+.toolbar_navigation_items a{
+    color: #444;
+    text-decoration: none;
+}
+
+.toolbar_navigation_items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar_navigation_items li{
+    padding:0 1rem;
+    color: #444;
+}
+
+
+.toolbar_navigation_items li a{
+    color: #444;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: .8rem;
+    
+}
+
+.toolbar_navigation_items li a:hover{
+    text-decoration: none;
+}
+
+.spacer{
+    flex:1;
+}
+
+
+@media (max-width:726px){
+    header{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .toolbar_logo a{
+        font-size: 1rem;
+    }
+
+    .toolbar_navigation_items li a{
+        font-size: .5rem;
+    }
+}
