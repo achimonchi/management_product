@@ -21,6 +21,15 @@ Adapun **dependencies** yang saya gunakan adalah :
 
 `moment` untuk format waktu dan tanggal
 
-`react-strap` bootstrap v4 untuk reactjs
+`reactstrap` bootstrap v4 untuk reactjs
 
 `react-router-dom` untuk router
+
+## Cara Menggunakan Aplikasi
+
+- Pada aplikasi ini, hanya mempunyai 1 level yaitu `admin`
+- akunnya adalah
+```
+email : admin@gmail.com
+password : admin
+```
