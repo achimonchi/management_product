@@ -12,10 +12,15 @@ Untuk menjalankan project ini, bisa dengan :
 
 ## Library yang digunakan
 
-Adapun *dependencies* yang saya gunakan adalah :
+Adapun **dependencies** yang saya gunakan adalah :
 `axios` untuk fetching data
+
 `base-64` untuk encoding token
+
 `bootstrap` untuk membantu menghandle css
+
 `moment` untuk format waktu dan tanggal
+
 `react-strap` bootstrap v4 untuk reactjs
+
 `react-router-dom` untuk router
