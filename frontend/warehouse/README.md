@@ -1,8 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project ini dibangun menggunakan [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Menjalankan Project
 
-In the project directory, you can run:
+Untuk menjalankan project ini, bisa dengan :
 
 ### `npm start`
 
