@@ -36,5 +36,5 @@ Adapun **dependencies** yang saya gunakan adalah :
 
 ## Cara Menggunakan Aplikasi
 
-- Untuk panduan API, bisa dilihat [Disini]()
+- Untuk panduan API, bisa dilihat [Disini](https://docs.google.com/document/d/1KqcQcmsse_1eBS3QDd5zlKa7ZEpdhmYhTmv8OzBZwDo/edit?usp=sharing)
 
